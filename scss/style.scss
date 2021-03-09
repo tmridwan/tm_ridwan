@@ -1,0 +1,168 @@
+$body-bg:#333;
+$font-color:#fff;
+body{
+  background: $body-bg;
+  color:$font-color;
+}
+.navbar{
+  opacity: 0.9;
+  background: #2b2628;
+}
+.fa{
+  background: #fff;
+  color: $body-bg;
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.li{
+  font-size: 30px;
+}
+.dp{
+  margin-top: 20px;
+  border-radius: 20px;
+  display: block;
+}
+.navlink{
+  scroll-behavior: smooth;
+}
+
+
+
+#about{
+  background: url('../img/back.jpg') no-repeat center right;
+  background-size: cover;
+  min-height: 600px;
+  margin-top: 55px;
+}
+.dark-overlay{
+  background: rgba(0,0,0,0.2);
+  min-height: 600px;
+}
+.home-inner1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.alist{
+  list-style-type: none;
+  font-size: 28px;
+  margin-left: -40px;
+}
+
+
+
+#skill{
+  background: url('../img/skill.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  background-attachment: fixed;
+}
+.home-inner2{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.dark-overlay2{
+  background: rgba(133, 180, 241, 0.445);
+  min-height: 500px;
+}
+.progress{
+  background-color: rgb(211, 214, 216);
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+
+
+#contact{
+  background: url('../img/contact.jpg') no-repeat center left;
+  background-size: cover;
+  min-height: 600px;
+}
+.dark-overlay2{
+  background: rgba(0,0,0,0.7);
+  min-height: 600px;
+}
+.home-inner3{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.ne{
+  color: #fff;
+  background-color: #212F3D;
+  border: 2px solid #CCD1D1;
+  border-radius: 5px;
+  width: 80%;
+  padding: 5px ;
+}
+.me{
+  color: #fff;
+  background-color: #212F3D;
+  border: 2px solid #CCD1D1;
+  border-radius: 5px;
+  width: 80%;
+  min-height: 200px;
+  padding: 5px ;
+  vertical-align: top;
+}
+.nem{
+  font-size: 20px;
+}
+.btn{
+  background-color: #95A5A6;
+  border: 2px solid #CCD1D1;
+  width: 80%;
+}
+
+
+
+#social{
+  background: url('../img/sm.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 300px;
+  background-attachment: fixed;
+}
+.dark-overlay4{
+  background: rgba(0,0,0,0.7);
+  min-height: 300px;
+}
+.home-inner4{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.fab , .far{
+  font-size: 100px;
+  padding:20px 40px 0px 40px;
+  color: ivory;
+  transition: 0.3s;
+}
+.fab:hover{
+  font-size: 100px;
+  color: rgb(143, 210, 233); 
+  text-decoration: none;
+}
+.far:hover{
+  font-size: 100px;
+  color: rgb(142, 210, 233);
+  text-decoration: none;
+}
+
+
+#education{
+  background: url('../img/backgroundb.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+}
+.dark-overlay3{
+  background: rgba(0,0,0,0.7);
+  min-height: 600px;
+}
+.home-inner5{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.elist{
+   margin-top: 20px;
+   font-size: 25px;
+   margin-left: -20px;
+}
